@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+
+    <PhysicalItem>
+		<Id>
+			<TypeId>PhysicalGunObject</TypeId>
+			<SubtypeId>CableConnectorItem</SubtypeId>
+		</Id>
+		<DisplayName>Cable Connector</DisplayName>
+		<Icon>Textures\GUI\Icons\WeaponWelder.dds</Icon>
+		<Description>Connects Cables</Description>
+		<Size>
+			<X>0.4</X>
+			<Y>0.2</Y>
+			<Z>0.1</Z>
+		</Size>
+		<Mass>5</Mass>
+		<Volume>8</Volume>
+		<Model>Models\Weapons\Welder.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MinimumOfferAmount>10</MinimumOfferAmount>
+		<MaximumOfferAmount>20</MaximumOfferAmount>
+		<MinimumOrderAmount>10</MinimumOrderAmount>
+		<MaximumOrderAmount>100</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+	</PhysicalItem>
+
+  </PhysicalItems>
+</Definitions>
